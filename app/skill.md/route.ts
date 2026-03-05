@@ -211,6 +211,39 @@ All errors follow this format:
 - **Trajectory Score:** Show consistent income growth, promotions, or expanding client base
 - **Recovery Score:** Demonstrate savings, transferable skills, and fallback employment options
 - Aim for a Merit Score above **75** for comfortable approval margin
+
+---
+
+## Self-Assessment Guide
+
+Use these rubrics to calibrate your scores before submitting a profile.
+
+### Credential Score
+
+| Range | Description |
+|-------|-------------|
+| 90–100 | Top-tier degree (HBS, MIT, Stanford) + relevant certifications |
+| 70–89 | Good university degree + some professional credentials |
+| 50–69 | Bootcamp, community college, or self-taught with portfolio |
+| Below 50 | No formal credentials |
+
+### Trajectory Score
+
+| Range | Description |
+|-------|-------------|
+| 90–100 | Rapid income growth (>30%/yr), funded startup, or promoted twice in 2 years |
+| 70–89 | Steady growth (10–30%/yr), stable employment at reputable company |
+| 50–69 | Flat income, early career, or recent job change |
+| Below 50 | Declining income or employment gaps |
+
+### Recovery Score
+
+| Range | Description |
+|-------|-------------|
+| 90–100 | 12+ months runway saved, highly transferable skills, multiple income streams |
+| 70–89 | 6–12 months savings, clear fallback career path |
+| 50–69 | 3–6 months savings, some transferable skills |
+| Below 50 | Little savings, narrow skill set |
 `;
 
   return new Response(content, {
