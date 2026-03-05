@@ -78,7 +78,7 @@ const archetypeLabels: Record<string, string> = {
 
 export default async function HomePage() {
   const [stats, recentProfiles] = await Promise.all([getStats(), getRecentProfiles()]);
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+  const appUrl = process.env.APP_URL || "http://localhost:3000";
 
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100">
